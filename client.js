@@ -12,12 +12,13 @@ const connect = function() {
 conn.on("connect", () => {
   console.log("Connected");
   conn.write("Name: A.A.");
-  setTimeout(() => {
-    conn.write("Move: up");
-  }, 2000)
-  setTimeout(() => {
-    conn.write("Move: right");
-  }, 4000)
+
+//   setTimeout(() => {
+//     conn.write("Move: up");
+//   }, 2000)
+//   setTimeout(() => {
+//     conn.write("Move: right");
+//   }, 4000)
 });
  
 
